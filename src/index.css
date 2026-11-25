@@ -1,1 +1,193 @@
 @import "tailwindcss";
+/* SmartFarm Shield — Dark Mode */
+
+html.dark {
+  color-scheme: dark;
+  background-color: #0f1714;
+  color: #e2e8f0;
+}
+
+.dark body,
+.dark #root {
+  background-color: #0f1714;
+  color: #e2e8f0;
+}
+
+/* Main surfaces and cards */
+
+.dark .bg-white {
+  background-color: #192520;
+}
+
+.dark .bg-slate-50,
+.dark .bg-gray-50,
+.dark .bg-slate-100 {
+  background-color: #111c17;
+}
+
+/* Text */
+
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+  color: #e2e8f0;
+}
+
+.dark .text-slate-600,
+.dark .text-slate-500 {
+  color: #a3b5ac;
+}
+
+.dark .text-slate-400 {
+  color: #84988d;
+}
+
+/* Borders */
+
+.dark .border-slate-100,
+.dark .border-slate-200,
+.dark .border-slate-300,
+.dark .border-gray-200 {
+  border-color: #304139;
+}
+
+/* Hover states */
+
+.dark .hover\:bg-slate-50:hover,
+.dark .hover\:bg-slate-100:hover {
+  background-color: #26382e;
+}
+
+/* Success indicators */
+
+.dark .bg-emerald-50,
+.dark .bg-green-50 {
+  background-color: #12372a;
+}
+
+.dark .text-emerald-700,
+.dark .text-emerald-800,
+.dark .text-green-700 {
+  color: #6ee7b7;
+}
+
+.dark .border-emerald-200 {
+  border-color: #235c45;
+}
+
+/* Warning indicators */
+
+.dark .bg-amber-50,
+.dark .bg-amber-100 {
+  background-color: #392d16;
+}
+
+.dark .text-amber-700,
+.dark .text-amber-800,
+.dark .text-amber-600 {
+  color: #fbbf24;
+}
+
+.dark .border-amber-200 {
+  border-color: #715421;
+}
+
+/* Critical alerts */
+
+.dark .bg-red-50,
+.dark .bg-red-100 {
+  background-color: #3b2024;
+}
+
+.dark .text-red-600,
+.dark .text-red-700,
+.dark .text-red-800 {
+  color: #fca5a5;
+}
+
+.dark .border-red-200 {
+  border-color: #71383e;
+}
+
+/* Information indicators */
+
+.dark .bg-blue-50 {
+  background-color: #172e43;
+}
+
+.dark .text-blue-700,
+.dark .text-blue-600 {
+  color: #93c5fd;
+}
+
+/* Form fields */
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #111c17;
+  color: #e2e8f0;
+  border-color: #304139;
+}
+
+/* Charts */
+
+.dark .recharts-cartesian-grid line {
+  stroke: #304139;
+}
+
+.dark .recharts-cartesian-axis-tick-value {
+  fill: #a3b5ac;
+}
+
+.dark .recharts-default-tooltip {
+  background-color: #192520 !important;
+  border-color: #304139 !important;
+  color: #e2e8f0 !important;
+}
+/* Dark mode refinements */
+
+/* Main workspace */
+.dark main,
+.dark [class*="bg-[#f"],
+.dark [class*="bg-[#F"] {
+  background-color: #0f1714;
+}
+
+/* Custom green text */
+.dark [class*="text-[#"] {
+  color: #a7d5bd;
+}
+
+/* Selected sidebar item */
+.dark [class*="bg-[#e"],
+.dark [class*="bg-[#E"] {
+  background-color: #263e32;
+}
+
+/* Custom card borders */
+.dark [class*="border-[#"] {
+  border-color: #304139;
+}
+
+/* Card shadows */
+.dark .shadow-sm {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Chart labels */
+.dark .recharts-text {
+  fill: #a3b5ac;
+}
+
+/* Chart tooltip text */
+.dark .recharts-tooltip-label,
+.dark .recharts-tooltip-item {
+  color: #e2e8f0 !important;
+}
+
+/* Row separators */
+.dark .divide-slate-100 > * + *,
+.dark .divide-slate-200 > * + * {
+  border-color: #304139;
+}
